@@ -78,3 +78,5 @@ npx prisma studio
 ```bash
 yarn dev
 ```
+
+[image](./sampleshot.png)
