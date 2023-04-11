@@ -79,4 +79,4 @@ npx prisma studio
 yarn dev
 ```
 
-[image](./sampleshot.png)
+![image](./sampleshot.png)
