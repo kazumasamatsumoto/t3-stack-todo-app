@@ -48,3 +48,33 @@ You can also dockerize this stack and deploy a container. See the [Docker deploy
 Here are some resources that we commonly refer to:
 
 - [Protecting routes with Next-Auth.js](https://next-auth.js.org/configuration/nextjs#unstable_getserversession)
+
+## デプロイについて
+
+コスト高のため断念、基本的にはローカルで確認してください。
+
+start db
+
+```bash
+docker compose up -d
+```
+
+remove db
+
+```bash
+docker compose rm -s -f -v
+```
+
+prisma migrate and type generation
+
+```bash
+npx prisma migrate dev
+npx prisma generate
+npx prisma studio
+```
+
+起動確認
+
+```bash
+yarn dev
+```
